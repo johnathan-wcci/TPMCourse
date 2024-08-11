@@ -1,0 +1,7 @@
+version: '3'
+services:
+  tpm:
+    build: ./alpine
+    container_name: TPMContainer
+    stdin_open: true
+    tty: true
